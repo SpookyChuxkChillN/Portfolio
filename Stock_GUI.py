@@ -1,3 +1,12 @@
+This Python script compares store prices to an online price and determines if the online price is lower than any store price. Here’s a brief breakdown:
+
+Define Prices: A list of store prices and an online price are set.
+Comparison Loop: Each store price is compared to the online price.
+Output: If any store price is higher than the online price, it prints “The online price is lower.” Otherwise, it prints “The store prices are lower.”
+The console output shows the result of this comparison.
+
+
+
 # Summary: This module contains the user interface and logic for a graphical user interface version of the stock manager program.
 # Author: 
 # Date: 
