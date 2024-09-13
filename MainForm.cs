@@ -1,4 +1,5 @@
-﻿using System;
+This C# code defines a Windows Forms application for managing a list of songs. The MainForm class contains arrays to store song details such as title, artist, genre, year, and URL, with a maximum of five songs. The ValidInput method checks if the input fields are filled. The addButton_Click_1 method adds a new song to the list if the input is valid and the list is not full. The allSongsButton_Click method displays all songs in the list, while the findButton_Click_1 method searches for a song by title and displays its details. The PlayButton_Click_1 method plays the selected song’s URL in a WebView2 control. The clearButton_Click method clears the input fields, and the songList_SelectedIndexChanged_1 method displays the details of the selected song.
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
