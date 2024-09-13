@@ -1,3 +1,4 @@
+This Python script is a stock management program that allows users to add, delete, and list stocks, as well as add daily stock data and display stock charts. It includes functions for managing different types of investment accounts (Traditional and Robo) and importing historical stock data from CSV files. The program also generates detailed reports on stock performance, including metrics like low and high prices, average prices, and volume changes. The main menu provides options to navigate through these functionalities, making it a comprehensive tool for stock analysis and management.
 # -*- coding: utf-8 -*-
 """
 Created on Mon Aug 30 22:57:11 2021
