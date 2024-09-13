@@ -1,3 +1,4 @@
+This Arduino code sets up an ultrasonic sensor to measure distance and control LEDs and a buzzer based on the measured distance. The setup function initializes serial communication and configures the pins for the ultrasonic sensor, LEDs, and buzzer. In the loop function, the code sends a pulse from the ultrasonic sensor and measures the time it takes for the echo to return, calculating the distance in inches. Depending on the distance, it lights up different LEDs: red for close range (<= 6 inches), yellow for mid-range (6-12 inches), and green for safe range (> 12 inches). The buzzer beeps at a rate proportional to the distance when an object is detected within 12 inches. The measured distance is printed to the serial monitor if it is less than 156 inches.
 #define trigPin 8
 #define echoPin 7
 #define Rled 2
