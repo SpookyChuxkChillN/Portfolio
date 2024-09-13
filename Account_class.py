@@ -1,3 +1,4 @@
+The provided Python script defines a class hierarchy for different types of retirement accounts and includes unit tests to verify their functionality. The Retirement_Account class serves as a parent class with attributes for balance and account number. The Traditional class inherits from Retirement_Account and adds functionality to manage a list of stocks. The Robo class also inherits from Retirement_Account and includes an additional attribute for the number of years, along with a method to calculate investment returns. The script concludes with a main function that performs unit tests to ensure the correct creation and modification of account instances, as well as the proper functioning of the investment return calculation.
 # -*- coding: utf-8 -*-
 """
 Created on Tue Jan 17 11:41:03 2023
